@@ -17,7 +17,7 @@ function UserSearch() {
         }
         else {
             searchUsers(text)
-
+ 
             setText("")
         }
     }
