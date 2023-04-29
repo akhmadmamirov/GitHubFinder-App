@@ -4,13 +4,14 @@ import Footer from "./components/layouts/Footer";
 import Alert from "./components/layouts/Alert";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
+import User from "./components/pages/User";
 import NotFound from "./components/pages/NotFound";
 import { GithubProvider } from "./components/context/github/GithubContext";
 import { AlertProvider } from "./components/context/alert/AlertContext";
 
 function App() {
   return (
-    <GithubProvider>
+    <GithubProvider> 
       <AlertProvider>
         <Router> 
           <div className="flex flex-col justify-between h-screen">
@@ -24,6 +25,7 @@ function App() {
                 <Route path='/about' element={<About />}/>
                 <Route path='/notfound' element={<NotFound  />}/>
                 <Route path='/*' element={<NotFound />}/>
+                <Route path='/user/:login' element={<User />}/>
               </Routes>
             </main>
             <Footer />
