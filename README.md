@@ -2,6 +2,11 @@
 
 Welcome to the **GitHub Finder** repository. This project is a web application that enables users to find and display GitHub users. Credits to Brad Traversy for the inspiration and guidance in building this project.
 
+## See Live: 
+https://githubfinder-prjp.onrender.com/
+
+<img width="555" alt="image" src="https://github.com/akhmadmamirov/GitHubFinder-App/assets/105142060/1f198e88-6633-4497-91cf-a0ae47fc3018">
+
 ## Overview
 
 The GitHub Finder offers the following functionalities:
@@ -33,7 +38,8 @@ npm start
 Open your web browser and navigate to http://localhost:3000 to use the GitHub Finder.
 
 
-
+Credits:
+Brad Traversy
 
 
 
